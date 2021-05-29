@@ -2,8 +2,11 @@
 
 
 Idea-1 : making a list of the things that are going to be done later or sooner.
+
 Idea-2 : letting you to know date , time with seconds
+
 Idea-3 : overview of covid cases among all countries
+
 Idea-4 : quick access of few social media
 
 Implementation languages and sources : 

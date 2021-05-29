@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TIME ZONE FINDER</title>
+    <style>
+        html,body{
+            box-shadow: 20px 20px 20px black;
+            color: azure;
+            width:400px;
+            text-align: center;
+            font-style: oblique;
+            background-color: black;
+        }
+        .but{
+            border :5px dotted white;
+            cursor: pointer;
+            padding:10px;
+            margin:8px;
+            border-radius: 10px;
+            text-shadow:0.5px 0.5px 0.5px rgb(27, 20, 20);
+            background-color: rgb(236, 101, 164);
+            color: black;
+           font-style: italic;
+            width: 170px;
+        }
+        .img1{
+            margin-right: 5px;
+             padding: 0px;
+             border:dotted 5px white;
+        }
+        .img2{
+            margin-right: 5px;
+            padding: 0px;
+             border:dotted 5px white;
+        }
+        .img3{
+            margin-right: 5px;
+            padding: 0px;
+             border:dotted 5px white;
+        }
+        .img4{
+            margin-right: 5px;
+            padding: 0px;
+             border:dotted 5px white;
+        }
+        .enter-country{
+          color: pink;
+            font-style: oblique;
+            font-size: medium;
+        }
+        .para{
+          font-style: oblique;
+            font-size: medium;
+        }
+        .country-name{
+            padding:8px;
+            margin:6px;
+            border-radius: 5px;
+            background-color:#FFF0F5;
+        }
+        .search-btn{
+            width: 100px;
+            cursor: pointer;
+            padding:5px;
+            margin:4px;
+            border:15px groove ;
+            border-radius: 10px;
+            background-color:black ;
+        color: azure;
+        }
+        .result-container{
+            font-style: oblique;
+            font-size: medium;
+        }
+       .a{
+           color:hotpink;
+         
+       }
+       .country-name{
+           border-radius: 10px;
+           border:3px dashed black;
+       }
+      
+  .b{
+      color: antiquewhite;
+  }
+  #addToDo{
+    border-radius: 3px;
+    border: groove 4px ;
+    height: 25px;
+    margin-left: 7px;
+background-color: purple;
+color: white;
+cursor: pointer;
+  }
+  #inputField{
+    border:dotted 4px black;
+    border-radius: 20px;
+    height: 20px;
+    width: 200px;
+    font-style: inherit;
+  }
+  .to-dos{
+    margin-left: 20px;
+    margin-right: 20px;
+   cursor: pointer;
+    font-size: large;
+  }
+.c{
+  color: orangered;
+}
+       
+    </style>
+  </head>
+  <body class="container">
+      <div>
+        <body>
+            <h1 class="b">To Do List</h1>
+            <div class="container">
+                <input id="inputField" type="text"><button id="addToDo">+</button>
+                <div class="to-dos" id="toDoContainer">
+                </div><hr>
+        <h1 class="a">TIME ZONE FINDER</h1>
+        <div id="showtym"></div>
+        <button id="time" class="but">Get Timezone</button> 
+      </div><hr>
+      <div>
+      <br>
+    <form class="form-data" autocomplete="on">
+      <div class="enter-country">
+        Enter a country name to get more information about covid cases in different countries:
+      </div>
+      <div>
+        <input type="text" class="country-name" />
+      </div>
+      <button class="search-btn">Search</button>
+    </form>
+    <div class="result">
+      <div class="loading"></div>
+      <div class="errors"></div>
+      <div class="data"></div>
+      <div class="result-container">
+        <p><strong>Total cases: </strong><span class="cases"></span></p>
+        <p>
+          <strong>Total recovered: </strong> <span class="recovered"></span>
+        </p>
+        <p><strong>Total deaths: </strong><span class="deaths"></span></p>
+      </div>
+    </div><hr>
+<h1 class="c" >social media</h1>
+    <div>
+        <a href="https://www.youtube.com/" target="_blank">
+<img class="img1" src="youtube.png" width="65" height="59">
+</a>
+<a href="https://www.twitter.com/" target="_blank">
+<img class="img2" src="twitter.png" width="65" height="59">
+</a>
+<a href="https://www.instagram.com/" target="_blank">
+<img class="img3" src="instagram.png" width="70" height="61.5">
+</a>
+<a href="https://www.facebook.com/" target="_blank">
+<img class="img4" src="facebook.png" width="65" height="62">
+</a>
+</div>
+</div>
+    <script src="main.js"></script>
+    <script src="background.js"></script>
+  </body>
+</html>
+

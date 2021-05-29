@@ -1,0 +1,13 @@
+{
+    "name" : "Multipurpose extension",
+    "version":"0.0.1",
+    "manifest_version":2,
+    "description":"By multipurpose extension we can find our timezone and know about covid cases in different countries...this extension gives u shortcut way to go with social media sites.....",
+  
+    
+"browser_action":{
+"default_popup" : "index.html"
+},
+
+"permissions":["activeTab"]
+}
